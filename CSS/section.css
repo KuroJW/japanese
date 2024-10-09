@@ -1,0 +1,41 @@
+#Kanji
+{
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    width: 50rem;
+    margin: 1rem;
+    margin-left: 20rem;
+    border-radius: 1rem 1rem;
+    font-family: var(--font--japanese);
+}
+
+#Pesquisar-kanji
+{
+    padding: 0.4rem;
+    color: #000000;
+    font-weight: 700;
+    font-size: 1.8rem;
+    background-color: #ffffff;
+    border: 0.2rem solid #ff10ff;
+    border-radius: 1rem 1rem;
+    text-decoration: none;
+}
+
+#Src_input
+{
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: var(--font--japanese);
+}
+
+#Src_output
+{
+    font-family: var(--font--japanese);
+}
+
+.resultado
+{
+    color: white;
+    font-size: 2rem;
+    margin: 1rem;
+}
