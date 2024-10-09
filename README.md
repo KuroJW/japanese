@@ -1,0 +1,2 @@
+# japanese
+Testando kanji => hiragana
