@@ -1,0 +1,11 @@
+@import url(CSS/header.css);
+@import url(CSS/section.css);
+@import url(CSS/footer.css);
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap');
+
+:root
+{
+    --main-font-color: #ffffff;
+    --main-page-color: #111111;
+    --font--japanese: "Shippori Mincho", serif;
+}

@@ -1,17 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="Scripts/script.js" defer></script>
+    <script src="Scripts/API.js" defer></script>
+    <title>Portfólio</title>
 </head>
 <body>
     
-        <input name="test" id="test">
-        <a id="btn" style="background-color: grey; color: white;padding: 1rem;" href="">ENVIAR</a>
-        <label>Leitura do kanji é:<p id="result"></p></label>
+    <header>
+
+        <h1 class="header_title">Jorge Wadley Saraiva</h1>
+        <div class="header_container">
+            <a class="header_content">Projetos</a>
+            <a class="header_content">Tecnologias</a>
+            <a class="header_content">Contato</a>
+        </div>
+
+    </header>
+
+    <section>
+        <input placeholder="Digite o kanji que deseja pesquisar" id="Kanji">
+        <a id="Pesquisar-kanji"  href="">ENVIAR</a>
         
+        <div class="resultado">
+            <label>Resultado da pesquisa: </label>
+            <div>
+                <span id="Src_output"></span>
+                <p id="Src_input"></p>
+            </div>
+        </div>
+        
+    </section>
+
+    <footer>
+        
+    </footer>
 
 </body>
 </html>
