@@ -5,7 +5,17 @@
 
 :root
 {
-    --main-font-color: #ffffff;
-    --main-page-color: #111111;
+    --main-font-color: ;
+    --main-page-color: ;
     --font--japanese: "Shippori Mincho", serif;
+}
+
+body
+{
+    background-color: #01002c;
+}
+
+a
+{
+    text-decoration: none;
 }

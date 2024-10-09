@@ -1,41 +1,62 @@
 #Kanji
 {
-    padding: 0.8rem;
-    font-size: 1.5rem;
-    width: 50rem;
-    margin: 1rem;
-    margin-left: 20rem;
+    padding: 0.8rem 2rem;
+    width: 20rem;
     border-radius: 1rem 1rem;
-    font-family: var(--font--japanese);
+    border-color: #53008a;
 }
 
 #Pesquisar-kanji
 {
-    padding: 0.4rem;
-    color: #000000;
-    font-weight: 700;
-    font-size: 1.8rem;
-    background-color: #ffffff;
-    border: 0.2rem solid #ff10ff;
+    color: black;
+    background-color: white;
     border-radius: 1rem 1rem;
-    text-decoration: none;
+    padding: 0.8rem 2rem;
+    font-weight: 700;
+    border-right:0.15rem solid #53008a;
 }
 
-#Src_input
+#Pesquisar-kanji:hover
 {
-    font-size: 4rem;
-    font-weight: 400;
-    font-family: var(--font--japanese);
+    background-color: #53008a;
+    color: white;
 }
 
 #Src_output
 {
-    font-family: var(--font--japanese);
+    font-size: 0.8rem;
+}
+
+#Src_input
+{
+    font-size: 2rem;
+}
+
+.section_container
+{
+    display: flex;
+    margin: 2rem 4rem;
+    align-items: center;
+    gap: 4rem;
 }
 
 .resultado
 {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 4rem;
+    gap: 1rem;
+    border: 0.2rem solid white;
+    width: 20rem;
+    padding: 1rem;
     color: white;
-    font-size: 2rem;
-    margin: 1rem;
+}
+
+.furigana
+{
+    display: flex;
+    width: max-content;
+    flex-direction: column;
+    text-align: center;
+    gap: 0.3rem;
 }

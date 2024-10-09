@@ -12,23 +12,25 @@
 <body>
     
     <header>
-
-        <h1 class="header_title">Jorge Wadley Saraiva</h1>
         <div class="header_container">
-            <a class="header_content">Projetos</a>
-            <a class="header_content">Tecnologias</a>
-            <a class="header_content">Contato</a>
+            <h1 class="header_title">Jorge Wadley Saraiva</h1>
+            <ol class="lista_container">
+                <li><a class="lista_content">Projetos</a></li>
+                <li><a class="lista_content">Tecnologias</a></li>
+                <li><a class="lista_content">Contato</a></li>
+            </ol>
         </div>
-
     </header>
 
     <section>
-        <input placeholder="Digite o kanji que deseja pesquisar" id="Kanji">
-        <a id="Pesquisar-kanji"  href="">ENVIAR</a>
+        <div class="section_container">
+            <input placeholder="Digite o kanji que deseja pesquisar" id="Kanji">
+            <a id="Pesquisar-kanji"  href="">🔍</a>
+        </div>
         
         <div class="resultado">
             <label>Resultado da pesquisa: </label>
-            <div>
+            <div class="furigana">
                 <span id="Src_output"></span>
                 <p id="Src_input"></p>
             </div>
